@@ -1,0 +1,41 @@
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+.prettierignore
+
+# IDEs
+.vscode/
+.idea/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+/dist/
+/build/
+
+# Fonts and images (jika gak perlu di-track)
+assets/fonts/
+assets/images/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Log and cache files
+*.log
+.cache/
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# Design files
+*.sketch
+*.fig
+*.xd
