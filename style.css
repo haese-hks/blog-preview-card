@@ -1,2 +1,154 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+
+h1, h2 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 7%);
+    margin: 1.35rem 0;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: hsl(29, 100%, 46%);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    position: relative;
+}
+
+.wrapper {
+    width: min(89%, 23rem);
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    margin: 0 auto;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+}
+
+.img-main {
+    max-width: 100%;
+    aspect-ratio: 4/3;
+    display: block;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.btn {
+    width: 80px;
+    background-color: hsl(47, 88%, 63%);
+    padding: .35rem;
+    font-weight: 800;
+    border: none;
+    border-radius: .3rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: hsl(29, 100%, 46%);
+}
+
+.wrapper > p {
+    margin-top: .85rem;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content > p {
+    line-height: 1.3;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: .75rem;
+}
+
+.img-avatar {
+    width: 40px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.img-avatar:hover {
+    transform: scale(1.3);
+}
+
+figcaption {
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+figcaption:hover  {
+    color: hsl(29, 100%, 46%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+    .wrapper {
+        width: min(89%, 23rem);
+        padding: 1.3rem;
+    }
+
+    h1 {
+        margin: 1.25rem 0;
+    }
+
+    .img-main {
+        aspect-ratio: unset;
+    }
+}
