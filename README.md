@@ -22,7 +22,7 @@ The challenge was to build a blog preview card that closely matches the provided
 
 ### Links
 
-- Live Site URL: [Github Pages](https://github.com/haese-hks/blog-preview-card)
+- Live Site URL: [Github Pages](https://haese-hks.github.io/blog-preview-card/)
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-IDWP4MLZsB)
 
