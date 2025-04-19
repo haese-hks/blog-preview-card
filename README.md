@@ -4,6 +4,16 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Table of contents
 
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
 ### Overview
 
 This is my solution for the **Blog Preview Card** challenge on Frontend Mentor. The goal was to build a simple and responsive blog card component based on a provided design.
@@ -26,22 +36,9 @@ The challenge was to build a blog preview card that closely matches the provided
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-IDWP4MLZsB)
 
-### My Process
+## My Process
 
-1. **Design Review**: I began by reviewing the provided design, focusing on the layout and the core components: the image, title, date, and avatar. I made a plan for how to break down the card into sections: header, content, and footer.
-
-2. **HTML Structure**: I structured the content with semantic HTML tags. I used `<main>` for the main content area, `<section>` for the card's content, and `<figure>` for the avatar. I also made sure to include the correct alt text for images and the `<time>` element for the publication date.
-
-3. **Styling with CSS**: I applied styles using Flexbox to create a responsive layout. I made sure to adjust padding and margins for different screen sizes and used `@font-face` to include custom fonts. I also set up a consistent color scheme for text and backgrounds.
-
-4. **Hover Effects & Animations**: The hover effects were important for adding interactivity. I used `transform: scale()` to create a zoom effect on the avatar image, and I added a background color change for certain parts of the card when hovered to improve user engagement.
-
-
-5. **Responsive Design**: I made sure the card looks great on mobile, tablet, and desktop devices by using media queries. I tweaked padding and text sizes for smaller screens to ensure readability and proper spacing.
-
-6. **Final Tweaks**: After implementing the main features, I tested the layout on different screen sizes, adjusted for accessibility, and ensured the hover effects were smooth. Finally, I double-checked the code for any potential improvements or fixes before finalizing the design.
-
-## Built With
+### Built With
 
 - HTML5
 - CSS3
@@ -50,7 +47,7 @@ The challenge was to build a blog preview card that closely matches the provided
 - Media Queries for responsive design
 - [GitHub Pages](https://pages.github.com) for deployment
 
-## Useful Resources
+### Useful Resources
 
 - [freeCodeCamp](https://www.freecodecamp.org/): The platform I used to learn HTML, CSS, and JavaScript in depth, including lessons on forms, layouts, and responsiveness.
 
